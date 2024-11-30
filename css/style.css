@@ -505,7 +505,7 @@ h5 {
     opacity: 1;
 }
 .inner {
-    padding: 0 70px;
+    padding: 70px;
 }
 .inner p {
     position: relative;
@@ -592,7 +592,7 @@ a.totop-link {
     margin-bottom: 35px
 }
 .introduction .inner {
-    margin: 40% 0 0 0;
+    margin: 47% 0 0 0;
     position:absolute;
     z-index:2;
 }

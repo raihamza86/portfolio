@@ -282,7 +282,7 @@
         height: 600px !important;
     }
     .introduction .inner {
-        margin: 38% 0 0 0
+        margin: 20% 0 0 0
     }
 
     .experience-details .col-3, .education-con .col-3 {
@@ -626,7 +626,7 @@
 @media screen and (max-width: 360px) {
     .introduction .inner {
         margin: 0 0 0 0;
-        padding-top: 110px !important;
+        padding-top: 130px !important;
         width: 86%;
     }
 }
