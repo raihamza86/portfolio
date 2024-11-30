@@ -431,7 +431,7 @@
               </div>
             </div>
             <div class="full-divider"></div>
-            <div class="container-sub">
+            <!-- <div class="container-sub">
               <div class="row">
                 <div class="contact-form">
                   <h3>Drop Me a Line</h3>
@@ -444,7 +444,7 @@
                   </form>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </article>
@@ -500,28 +500,6 @@ head.js(
 <script src="js/settings.js"></script>
 
 <!-- Send Eamil Functionality -->
-<script>
-document.getElementById("contactForm").addEventListener("submit", async function (e) {
-  e.preventDefault();
-
-  const formData = new FormData(this);
-  const data = new URLSearchParams(formData).toString();
-
-  const response = await fetch(this.action, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: data,
-  });
-
-  if (response.ok) {
-    alert("Your message has been sent!");
-    this.reset();
-  } else {
-    alert("Failed to send your message. Please try again.");
-  }
-});
-
-</script>
 
 </body>
 </html>
